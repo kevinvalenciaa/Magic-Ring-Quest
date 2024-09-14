@@ -9,7 +9,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self,pos,groups,obstacle_sprites):
         super().__init__(groups)
 
-        self.image = pygame.image.load('C:/Users/kevin/OneDrive/Desktop/pygame_app/Warrior_Blue_idle_1.png').convert_alpha()
+        self.image = pygame.image.load('Warrior_Blue_idle_1.png').convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
         self.hitbox = self.rect.inflate(-28,-35)
        
