@@ -48,7 +48,7 @@ class YSortCameraGroup(pygame.sprite.Group):
         self.offset = pygame.math.Vector2()
 
         #creating the floor
-        self.floor_surface = pygame.image.load('C:/Users/kevin/OneDrive/Desktop/pygame_app/tiled-pygame-maptest3.png')
+        self.floor_surface = pygame.image.load('tiled-pygame-maptest3.png')
         self.floor_rect = self.floor_surface.get_rect(topleft = (0,0))
 
     def custom_draw(self,player):
