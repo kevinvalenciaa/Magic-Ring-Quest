@@ -19,7 +19,9 @@ class Player(pygame.sprite.Sprite):
         # Player stats
         self.health = 100
         self.max_health = 100
-        self.obstacle_sprites = obstacle_sprites
+        self.level = 1
+        self.experience = 0
+        self.experience_to_next_level = 100        self.obstacle_sprites = obstacle_sprites
 
     def input(self):
         keys = pygame.key.get_pressed()
