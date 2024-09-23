@@ -11,10 +11,10 @@ class Player(pygame.sprite.Sprite):
 
         self.image = pygame.image.load('Warrior_Blue_idle_1.png').convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
-        self.hitbox = self.rect.inflate(-28,-35)
+        self.hitbox = self.rect.inflate(*PLAYER_HITBOX_OFFSET)
        
         self.direction = pygame.math.Vector2()
-        self.speed = 4
+        self.speed = PLAYER_SPEED
         
         # Player stats
         self.health = 100
