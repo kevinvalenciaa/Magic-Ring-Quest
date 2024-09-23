@@ -1,8 +1,15 @@
-WIDTH    = 1280 
+# Screen dimensionsWIDTH    = 1280 
 HEIGHT   = 720
 FPS      = 60
 TILESIZE = 64
 
+# Player settings
+PLAYER_SPEED = 4
+PLAYER_HITBOX_OFFSET = (-28, -35)
+
+# Game settings
+GAME_TITLE = "Magic Ring Quest"
+BACKGROUND_COLOR = "black"
 WORLD_MAP = [
 ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
 ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
