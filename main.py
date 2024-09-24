@@ -18,7 +18,7 @@ class Game:
         
         # Game state
         self.paused = False    
-        self.level = Level()
+        self.show_fps = False        self.level = Level()
 
     def run(self):
         while True:
@@ -27,7 +27,8 @@ class Game:
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_ESCAPE:
                     if event.key == pygame.K_SPACE:
-                        self.paused = not self.paused                        pygame.quit()
+                    if event.key == pygame.K_F1:
+                        self.show_fps = not self.show_fps                        self.paused = not self.paused                        pygame.quit()
                         sys.exit()                    pygame.quit()
                     sys.exit()
   
@@ -50,5 +51,6 @@ if __name__ == '__main__':
                     if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_ESCAPE:
                     if event.key == pygame.K_SPACE:
-                        self.paused = not self.paused                        pygame.quit()
+                    if event.key == pygame.K_F1:
+                        self.show_fps = not self.show_fps                        self.paused = not self.paused                        pygame.quit()
                         sys.exit()
