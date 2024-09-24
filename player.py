@@ -27,7 +27,10 @@ class Player(pygame.sprite.Sprite):
         self.inventory = []
         self.max_inventory_size = 20
         self.coins = 0    def input(self):
-        keys = pygame.key.get_pressed()
+        
+        # Magic system
+        self.mana = 100
+        self.max_mana = 100        keys = pygame.key.get_pressed()
 
         if keys[pygame.K_w] or keys[pygame.K_UP]:
             self.direction.y = -1
