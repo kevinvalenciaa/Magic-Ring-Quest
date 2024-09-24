@@ -10,7 +10,7 @@ PLAYER_HITBOX_OFFSET = (-28, -35)
 # Game settings
 GAME_TITLE = "Magic Ring Quest"
 BACKGROUND_COLOR = "black"
-WORLD_MAP = [
+DEBUG_MODE = TrueWORLD_MAP = [
 ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
 ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
 ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
