@@ -22,7 +22,10 @@ class Player(pygame.sprite.Sprite):
         self.level = 1
         self.experience = 0
         self.experience_to_next_level = 100        self.obstacle_sprites = obstacle_sprites
-
+        
+        # Inventory system
+        self.inventory = []
+        self.max_inventory_size = 20
     def input(self):
         keys = pygame.key.get_pressed()
 
