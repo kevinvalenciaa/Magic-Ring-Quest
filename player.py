@@ -26,7 +26,7 @@ class Player(pygame.sprite.Sprite):
         # Inventory system
         self.inventory = []
         self.max_inventory_size = 20
-    def input(self):
+        self.coins = 0    def input(self):
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_w] or keys[pygame.K_UP]:
