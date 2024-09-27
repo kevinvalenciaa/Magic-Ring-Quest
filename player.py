@@ -81,3 +81,10 @@ class Player(pygame.sprite.Sprite):
     def update (self):
         self.input()
         self.move(self.speed)
+    def get_position(self):
+        """Get current player position."""
+        return (self.rect.centerx, self.rect.centery)
+    
+    def get_tile_position(self):
+        """Get current tile coordinates."""
+        return (self.rect.centerx // TILESIZE, self.rect.centery // TILESIZE)
