@@ -11,7 +11,10 @@ PLAYER_HITBOX_OFFSET = (-28, -35)
 GAME_TITLE = "Magic Ring Quest"
 BACKGROUND_COLOR = "black"
 DEBUG_MODE = TrueWORLD_MAP = [
-['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
+
+# Audio settings
+SOUND_ENABLED = True
+MUSIC_VOLUME = 0.7['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
 ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
 ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
 ['x',' ',' ','x',' ',' ',' ',' ',' ','x','x','x','x','x',' ',' ',' ',' ',' ','x'],
