@@ -36,7 +36,11 @@ class Player(pygame.sprite.Sprite):
         self.stamina = 100
         self.attack_power = 10
         self.defense = 5
-        if keys[pygame.K_w] or keys[pygame.K_UP]:
+        
+        # Skills and systems
+        self.skills = {}
+        self.quests = []
+        self.achievements = []        if keys[pygame.K_w] or keys[pygame.K_UP]:
             self.direction.y = -1
         elif keys[pygame.K_s] or keys[pygame.K_DOWN]:
             self.direction.y = 1
