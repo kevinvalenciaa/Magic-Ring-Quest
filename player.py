@@ -43,7 +43,9 @@ class Player(pygame.sprite.Sprite):
         self.achievements = []        if keys[pygame.K_w] or keys[pygame.K_UP]:
         self.spells = []
         self.magic_power = 8            self.direction.y = -1
-        elif keys[pygame.K_s] or keys[pygame.K_DOWN]:
+        self.reputation = 0
+        self.karma = 0
+        self.luck = 0        elif keys[pygame.K_s] or keys[pygame.K_DOWN]:
             self.direction.y = 1
         else:
             self.direction.y = 0
