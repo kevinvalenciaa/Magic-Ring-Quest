@@ -51,7 +51,12 @@ class Player(pygame.sprite.Sprite):
         self.guild = None
         self.friends = []
         self.energy = 100            self.direction.y = 1
-        else:
+        
+        # Skill levels
+        self.crafting_level = 1
+        self.fishing_level = 1
+        self.cooking_level = 1
+        self.mining_level = 1        else:
             self.direction.y = 0
 
         if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
