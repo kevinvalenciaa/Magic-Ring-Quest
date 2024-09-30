@@ -11,3 +11,11 @@
 - [ ] Improve animations
 - [ ] Add particle effects
 - [ ] Optimize performance
+
+## Advanced Features (Future)
+- [ ] Weather system
+- [ ] Day/night cycle  
+- [ ] Multiplayer support
+- [ ] Mod support
+- [ ] Achievement system
+- [ ] Leaderboards
