@@ -46,7 +46,11 @@ class Player(pygame.sprite.Sprite):
         self.reputation = 0
         self.karma = 0
         self.luck = 0        elif keys[pygame.K_s] or keys[pygame.K_DOWN]:
-            self.direction.y = 1
+        
+        # Social systems
+        self.guild = None
+        self.friends = []
+        self.energy = 100            self.direction.y = 1
         else:
             self.direction.y = 0
 
