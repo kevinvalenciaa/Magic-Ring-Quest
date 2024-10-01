@@ -60,7 +60,10 @@ class Player(pygame.sprite.Sprite):
         self.trading_level = 1
         self.social_level = 1
         self.diplomacy_level = 1            self.direction.y = 0
-
+        
+        # Companions
+        self.pet = None
+        self.mount = None
         if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
             self.direction.x = 1
         elif keys[pygame.K_a] or keys[pygame.K_LEFT]:
