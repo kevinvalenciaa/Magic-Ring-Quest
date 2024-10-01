@@ -64,7 +64,10 @@ class Player(pygame.sprite.Sprite):
         # Companions
         self.pet = None
         self.mount = None
-        if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
+        
+        # Advanced attributes
+        self.leadership = 0
+        self.charisma = 0        if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
             self.direction.x = 1
         elif keys[pygame.K_a] or keys[pygame.K_LEFT]:
             self.direction.x = -1
