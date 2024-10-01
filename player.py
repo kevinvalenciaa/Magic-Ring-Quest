@@ -68,7 +68,10 @@ class Player(pygame.sprite.Sprite):
         # Advanced attributes
         self.leadership = 0
         self.charisma = 0        if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
-            self.direction.x = 1
+        
+        # Combat mechanics
+        self.crit_chance = 0.1
+        self.block_chance = 0.15            self.direction.x = 1
         elif keys[pygame.K_a] or keys[pygame.K_LEFT]:
             self.direction.x = -1
         else:
