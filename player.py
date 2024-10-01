@@ -57,7 +57,9 @@ class Player(pygame.sprite.Sprite):
         self.fishing_level = 1
         self.cooking_level = 1
         self.mining_level = 1        else:
-            self.direction.y = 0
+        self.trading_level = 1
+        self.social_level = 1
+        self.diplomacy_level = 1            self.direction.y = 0
 
         if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
             self.direction.x = 1
