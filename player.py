@@ -77,7 +77,10 @@ class Player(pygame.sprite.Sprite):
         self.alchemy_level = 1
         self.enchanting_level = 1
         self.blacksmithing_level = 1        elif keys[pygame.K_a] or keys[pygame.K_LEFT]:
-            self.direction.x = -1
+        
+        # NPC interactions
+        self.dialogue_history = []
+        self.relationship_levels = {}            self.direction.x = -1
         else:
             self.direction.x = 0
 
