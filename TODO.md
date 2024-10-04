@@ -19,3 +19,10 @@
 - [ ] Mod support
 - [ ] Achievement system
 - [ ] Leaderboards
+
+## Debug Features
+- [ ] Performance profiler
+- [ ] Memory usage tracker
+- [ ] FPS monitor improvements
+- [ ] Console commands
+- [ ] Debug visualization
