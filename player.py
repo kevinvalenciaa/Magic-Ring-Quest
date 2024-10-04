@@ -86,7 +86,11 @@ class Player(pygame.sprite.Sprite):
         self.riding_level = 1
         self.vehicles_owned = []
         self.movement_speed_bonus = 0        else:
-            self.direction.x = 0
+        
+        # Construction
+        self.construction_level = 1
+        self.buildings_owned = []
+        self.blueprint_collection = []            self.direction.x = 0
 
     def move(self,speed):
         if self.direction.magnitude() != 0:
