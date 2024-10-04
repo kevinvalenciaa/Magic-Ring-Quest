@@ -81,7 +81,11 @@ class Player(pygame.sprite.Sprite):
         # NPC interactions
         self.dialogue_history = []
         self.relationship_levels = {}            self.direction.x = -1
-        else:
+        
+        # Transportation
+        self.riding_level = 1
+        self.vehicles_owned = []
+        self.movement_speed_bonus = 0        else:
             self.direction.x = 0
 
     def move(self,speed):
