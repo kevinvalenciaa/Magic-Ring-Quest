@@ -91,7 +91,11 @@ class Player(pygame.sprite.Sprite):
         self.construction_level = 1
         self.buildings_owned = []
         self.blueprint_collection = []            self.direction.x = 0
-
+        
+        # Economy
+        self.bank_balance = 0
+        self.trade_reputation = 0
+        self.market_standing = {}
     def move(self,speed):
         if self.direction.magnitude() != 0:
             self.direction = self.direction.normalize()
