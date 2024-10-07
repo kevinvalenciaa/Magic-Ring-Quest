@@ -96,7 +96,11 @@ class Player(pygame.sprite.Sprite):
         self.bank_balance = 0
         self.trade_reputation = 0
         self.market_standing = {}
-    def move(self,speed):
+        
+        # Battle system
+        self.combo_count = 0
+        self.battle_experience = 0
+        self.fighting_style = "Balanced"    def move(self,speed):
         if self.direction.magnitude() != 0:
             self.direction = self.direction.normalize()
 
