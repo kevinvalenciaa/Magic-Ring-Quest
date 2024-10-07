@@ -101,7 +101,10 @@ class Player(pygame.sprite.Sprite):
         self.combo_count = 0
         self.battle_experience = 0
         self.fighting_style = "Balanced"    def move(self,speed):
-        if self.direction.magnitude() != 0:
+        
+        # Seasonal content
+        self.seasonal_progress = {}
+        self.event_participation = 0        if self.direction.magnitude() != 0:
             self.direction = self.direction.normalize()
 
         self.hitbox.x += self.direction.x * speed
