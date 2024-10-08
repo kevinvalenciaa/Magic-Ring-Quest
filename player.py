@@ -111,7 +111,11 @@ class Player(pygame.sprite.Sprite):
         self.distance_traveled = 0
         self.monsters_defeated = 0
         self.quests_completed = 0            self.direction = self.direction.normalize()
-
+        
+        # Advanced inventory
+        self.item_categories = {}
+        self.auto_sort_enabled = True
+        self.quick_access_slots = [None] * 8
         self.hitbox.x += self.direction.x * speed
         self.collision('horizontal')
         self.hitbox.y += self.direction.y * speed
