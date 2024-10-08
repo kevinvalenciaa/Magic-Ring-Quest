@@ -105,7 +105,12 @@ class Player(pygame.sprite.Sprite):
         # Seasonal content
         self.seasonal_progress = {}
         self.event_participation = 0        if self.direction.magnitude() != 0:
-            self.direction = self.direction.normalize()
+        
+        # Statistics tracking
+        self.play_time = 0
+        self.distance_traveled = 0
+        self.monsters_defeated = 0
+        self.quests_completed = 0            self.direction = self.direction.normalize()
 
         self.hitbox.x += self.direction.x * speed
         self.collision('horizontal')
