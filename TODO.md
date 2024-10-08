@@ -26,3 +26,10 @@
 - [ ] FPS monitor improvements
 - [ ] Console commands
 - [ ] Debug visualization
+
+## Performance Monitoring
+- [ ] FPS tracking
+- [ ] Memory usage alerts
+- [ ] Loading time optimization
+- [ ] Asset streaming
+- [ ] Background processing
