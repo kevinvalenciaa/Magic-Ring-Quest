@@ -116,7 +116,11 @@ class Player(pygame.sprite.Sprite):
         self.item_categories = {}
         self.auto_sort_enabled = True
         self.quick_access_slots = [None] * 8
-        self.hitbox.x += self.direction.x * speed
+        
+        # Character customization
+        self.appearance = {}
+        self.outfit_collection = []
+        self.cosmetic_unlocks = []        self.hitbox.x += self.direction.x * speed
         self.collision('horizontal')
         self.hitbox.y += self.direction.y * speed
         self.collision('vertical')
