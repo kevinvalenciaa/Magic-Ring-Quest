@@ -126,7 +126,11 @@ class Player(pygame.sprite.Sprite):
         self.achievement_progress = {}
         self.milestone_rewards = []
         self.completion_percentage = 0.0        self.collision('horizontal')
-        self.hitbox.y += self.direction.y * speed
+        
+        # Tutorial system
+        self.tutorial_progress = 0
+        self.hints_enabled = True
+        self.help_topics_viewed = []        self.hitbox.y += self.direction.y * speed
         self.collision('vertical')
         self.rect.center = self.hitbox.center
 
