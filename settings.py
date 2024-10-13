@@ -96,7 +96,11 @@ SCRIPT_SECURITY = "Strict"['x',' ',' ',' ',' ',' ',' ',' ','x',' ',' ',' ',' ','
 ANTI_CHEAT_ENABLED = True
 DATA_VALIDATION = True
 SECURE_CONNECTIONS = True['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
-['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
+
+# AI features
+AI_DIFFICULTY = "Medium"
+SMART_HINTS = True
+AUTO_TARGETING = False['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
 ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
 ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
 ]
