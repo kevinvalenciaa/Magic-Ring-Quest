@@ -101,6 +101,10 @@ SECURE_CONNECTIONS = True['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' 
 AI_DIFFICULTY = "Medium"
 SMART_HINTS = True
 AUTO_TARGETING = False['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
-['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
+
+# Platform support
+CROSS_PLATFORM_SAVES = True
+PLATFORM_INTEGRATION = True
+DEVICE_SYNC = False['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
 ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
 ]
