@@ -33,3 +33,10 @@
 - [ ] Loading time optimization
 - [ ] Asset streaming
 - [ ] Background processing
+
+## Social Features
+- [ ] Friend system
+- [ ] Guild creation
+- [ ] Leaderboards
+- [ ] Social achievements
+- [ ] Community events
