@@ -131,7 +131,11 @@ class Player(pygame.sprite.Sprite):
         self.tutorial_progress = 0
         self.hints_enabled = True
         self.help_topics_viewed = []        self.hitbox.y += self.direction.y * speed
-        self.collision('vertical')
+        
+        # Analytics
+        self.session_data = {}
+        self.preferences = {}
+        self.usage_patterns = []        self.collision('vertical')
         self.rect.center = self.hitbox.center
 
 
