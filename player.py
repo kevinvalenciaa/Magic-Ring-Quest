@@ -136,7 +136,11 @@ class Player(pygame.sprite.Sprite):
         self.session_data = {}
         self.preferences = {}
         self.usage_patterns = []        self.collision('vertical')
-        self.rect.center = self.hitbox.center
+        
+        # Competitive
+        self.ranking = 0
+        self.competitive_matches = 0
+        self.tournament_wins = 0        self.rect.center = self.hitbox.center
 
 
     def collision(self,direction):
