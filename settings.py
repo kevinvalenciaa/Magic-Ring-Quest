@@ -106,5 +106,10 @@ AUTO_TARGETING = False['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','
 CROSS_PLATFORM_SAVES = True
 PLATFORM_INTEGRATION = True
 DEVICE_SYNC = False['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
-['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
+
+# VR/AR (future)
+VR_SUPPORT = False
+AR_FEATURES = False
+MOTION_CONTROLS = False
+HAPTIC_FEEDBACK = True['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
 ]
