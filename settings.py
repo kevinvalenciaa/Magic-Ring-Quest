@@ -112,4 +112,8 @@ VR_SUPPORT = False
 AR_FEATURES = False
 MOTION_CONTROLS = False
 HAPTIC_FEEDBACK = True['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
-]
+
+# Content creation
+STREAMING_MODE = False
+CAPTURE_HIGHLIGHTS = True
+SHARE_SCREENSHOTS = True]
