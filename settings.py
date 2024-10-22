@@ -117,3 +117,7 @@ HAPTIC_FEEDBACK = True['x','x','x','x','x','x','x','x','x','x','x','x','x','x','
 STREAMING_MODE = False
 CAPTURE_HIGHLIGHTS = True
 SHARE_SCREENSHOTS = True]
+# Localization
+LANGUAGE = "English"
+REGION_SETTINGS = "US"
+TEXT_ENCODING = "UTF-8"
