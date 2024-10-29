@@ -32,8 +32,7 @@ CONTROLLER_SUPPORT = True
 FULLSCREEN_MODE = False['x',' ',' ','x',' ',' ',' ',' ',' ','x','x','x','x','x',' ',' ',' ',' ',' ','x'],
 
 # Game metadata
-VERSION = "1.0.1"DIFFICULTY_LEVEL = "Normal"
-GAME_MODE = "Adventure"['x',' ',' ','x',' ',' ',' ',' ',' ',' ',' ',' ',' ','x',' ',' ',' ',' ',' ','x'],
+VERSION = "1.0.2"GAME_MODE = "Adventure"['x',' ',' ','x',' ',' ',' ',' ',' ',' ',' ',' ',' ','x',' ',' ',' ',' ',' ','x'],
 
 # Performance settings
 RENDER_DISTANCE = 1000
